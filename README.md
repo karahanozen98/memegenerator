@@ -1,6 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br/>
 Working demo: https://meemgenerator.netlify.app/ <br/>
 <br/>
+<img alt="screenshot" src="https://user-images.githubusercontent.com/58807989/103550850-907e1e00-4eba-11eb-860f-4fc127806a19.png"></img>
 ## Available Scripts
 
 In the project directory, you can run:
