@@ -1,0 +1,14 @@
+
+.App {
+  overflow: hidden; /* Hide scrollbars */
+  text-align: center;
+  background-color: #e3e6f0;
+}
+
+.App-footer{
+  text-align: center;
+  padding: 5px;
+  bottom: 0px;
+  background-color: #f4511e;
+  color: white;
+}

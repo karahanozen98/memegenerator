@@ -1,0 +1,115 @@
+
+.App-body {
+  overflow: hidden; /* Hide scrollbars */
+  background-color: #161616;
+  text-align: center;
+  align-items: center;
+}
+
+.App-body > Form > label {
+  font-size: 1em;
+  color: white;
+  padding: 1%;
+}
+
+.App-body > Form > input {
+  border-style: solid;
+  border-color: #f4511e;
+  font-size: 1.5em;
+  margin:20px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 70%;
+  height: 25px;
+  border-radius: 5px;
+  background: white;
+  outline: none;
+
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #f4511e;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #f4511e;
+  cursor: pointer;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:active {
+  vertical-align: top;
+    padding-top: 8px;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.meme {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+.meme > img {
+max-width: 100%;
+max-height: 700px;
+}
+
+.imgTemplate {
+  position: relative;
+  text-align: center;
+}
+
+.imgText{
+  position: absolute;
+  color:white;
+  transform: translate(-50%, -120%);
+  font-family: impact, sans-serif;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}

@@ -1,0 +1,24 @@
+.App-header {
+  color: white;
+  background-color: #f4511e;
+  padding: 1%;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.App-logo {
+  margin-left: 5%;
+
+}
+
+.App-header > h1 {
+  margin: auto;
+  font-size: 2em;
+}
+
+.App-header > time {
+  font-size: 1.5em;
+  float: right;
+  padding-right: 2%;
+}
